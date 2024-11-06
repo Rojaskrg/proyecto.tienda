@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/nomalize.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Redux - Tienda Camisas</title>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="./img/logo.png" alt="Logo principal" />
+    </a>
+  </header>
+  <nav class="navegacion">
+    <a class="navegacion__enlace" href="index.html">Tienda</a>
+    <a class="navegacion_enlace navegacion_enlace--activo" href="nosotros.html">Nosotros</a>
+  </nav>
+
+  <main class="contenedor">
+    <h1>Redux</h1>
+    <div class="contenidoCamisa">
+      <img src="./img/4.jpg" alt="Imagen de camisa Redux" />
+      <div>
+        <p>Camisa Redux ideal para los fanáticos del estado global.</p>
+        <form class="formulario">
+          <select class="formulario__campo">
+            <option disabled selected>Seleccionar Talla</option>
+            <option>Pequeña</option>
+            <option>Mediana</option>
+            <option>Grande</option>
+          </select>
+          <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" />
+          <input class="formulario__submit" type="submit" value="Agregar al Carrito" />
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__texto">Tienda -- Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
